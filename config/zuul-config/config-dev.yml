@@ -1,0 +1,3 @@
+zuulname: zouyang
+democonfigclient:
+  message: hello spring zuul
