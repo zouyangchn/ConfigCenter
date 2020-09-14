@@ -9,7 +9,12 @@ spring:
       label: master
       server:
         git:
-          uri: https://github.com/forezp/SpringcloudConfig/
-          searchPaths: respo
+          uri: https://github.com/zouyangchn/ConfigCenter/
+          searchPaths: config/config-client/
           username: 595007358@qq.com
           password: '@zy900125'
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8889/eureka/
